@@ -5,7 +5,7 @@
 
 // 2. debugger VARIABLES 에서 직접 변수값 수정가능
 
-// 3.breakpoint 빨간점우클릭 edit 에서 조건걸기 가능 (ex) i===3 )
+// 3. breakpoint 빨간점우클릭 edit 에서 조건걸기 가능 (ex) i===3 )
 
 // 4. 디버깅 중 코드수정되면 디버깅 자동으로 다시 시작 > create a launch.json file
 

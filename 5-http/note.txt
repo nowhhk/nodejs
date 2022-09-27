@@ -1,0 +1,28 @@
+
+
+client <> server
+
+HTTP
+-> HTTPS (secure)
+-> HTTP v1 (HTTP 로도 HTTPS로도 사용가능) : text-based, uncompressed headers, 1file at 1 time
+-> ** HTTP2 v2(HTTPS로 동작) : binary based protocol, header compression, multiplexing,
+-> HTTP3 v3 : TCP > UDP
+
+
+URL : protocol+hostname+(port)+pathname+query
+
+request 종류
+GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS, TRACE
+
+Request has body?
+Successful response has body?
+Safe?
+Idempotent?
+Cacheable?
+Allowed in HTML forms?
+
+>> https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+>> https://developer.mozilla.org/ko/docs/Web/HTTP/Methods 
+
+
+Status Code
