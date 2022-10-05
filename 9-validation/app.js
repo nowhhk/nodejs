@@ -16,7 +16,7 @@ app.post(
   '/users',
   [
     body('name')
-      .trim() // 공백제거
+      .trim() // Sanitization 공백제거
       .isLength({ min: 2, max: 10 })
       .withMessage('이름은 두글자 이상!'),
     body('age').isInt().withMessage('숫자를 입력해'),
